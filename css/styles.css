@@ -395,8 +395,24 @@ footer {
 /*Responsive*/
 
 @media (max-width:800px){
+     header.down a {
+        color: #fff;
+    }
     .nav_menu {
         display: block;
+    }
+    
+    .navegador ul {
+        position: fixed;
+
+    }
+
+    .navegador ul li{
+        margin: 70px 0px;
+    }
+    
+    .navegador img {
+        margin-right: 150px;
     }
     
     .nav_link--menu{
@@ -418,6 +434,8 @@ footer {
     
     .nav_link img {
         display: block;
+        align-items : center;
+        margin-right: 50px; 
     }
 
     .nav_link--show{
