@@ -71,6 +71,7 @@ header.down a{
 }
 
 .navegador img {
+    background-attachment: fixed;
     height: 60px;
     margin-left: 0%;
     margin-right: 250px;
